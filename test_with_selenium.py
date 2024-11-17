@@ -14,7 +14,7 @@ driver = webdriver.Firefox(options=options, service=service)
 def test_getting_google_dot_com():
 
     """test if Selenium works for the first time after being installed 
-       test by opening the Firefox browser and getting going to google.com, wait for 10 seconds and then close the browser"""
+       test by opening the Firefox browser and going to google.com, wait for 10 seconds and then close the browser"""
     
     driver.get("https://www.google.com/")
     time.sleep(10)
